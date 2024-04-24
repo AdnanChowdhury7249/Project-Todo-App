@@ -1,5 +1,8 @@
 # Project-Todo-App
 
+# Live Demo
+Live demo: [Todo App](https://adnanchowdhury7249.github.io/Project-Todo-App/)
+
 # Todo-List
 Features
 Project Creation: Users can create new projects, giving them names and setting up the foundational structure for task management. Task Management: For each project, users can add, edit, and delete tasks, which include details such as title, description, due date, and priority level. Task Filtering: Tasks can be filtered to view those due today or within the current week, helping users focus on immediate priorities. Dynamic UI: The interface dynamically updates to show the relevant tasks and projects, enhancing user interaction without needing to reload the page. Local Storage: Projects and tasks are saved to the browser's local storage, ensuring data persistence across sessions.
