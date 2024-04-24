@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <h1>Project Todo</h1>
+        </div>
+        <div class="sidebar"></div>
+        <div class="content">
+            <dialog data-modal class="inputField">
+                <form id="newTask">
+                    <label>Title: </label>
+                    <input type="text" id="titleInput" name="title" placeholder="What to do?" required>
+                    <br>
+                    <label>Description(optional): </label>
+                    <textarea id="descriptionInput" placeholder="Describe todo"></textarea>
+                    <br>
+                    <label>Date:</label>
+                    <br>
+                    <input type="date" id="dateInput" name="date" required>
+                    <label>Task Priority </label>
+                    <select id="priorityList" class="styled-dropdown" name="priority" required>
+                        <option value="" disabled selected>Select priority</option>
+                        <option value="low">Low priority</option>
+                        <option value="medium">Medium priority</option>
+                        <option value="high">high priority</option>
+                    </select>
+                    <div class="formButtons">
+                        <input type="submit" class="listSubmitBtn" value="Add" id="submitButton">
+                        <input type="button" class="listCancelBtn" value="Cancel">
+                    </div>
+                </form>
+            </dialog>
+        </div>
+    </div>
+    <div class="overlay"></div>
+</body>
+
+</html>
