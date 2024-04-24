@@ -51,10 +51,6 @@ out/
 
 # Nuxt.js build / generate output
 .nuxt
-dist/
-
-# VuePress build output
-.vuepress/dist
 
 # Serverless directories
 .serverless/
